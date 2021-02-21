@@ -97,3 +97,5 @@ app.get('/roomsbookingstatus', (req, res) => {
 
     res.send(result);
 });
+
+app.get('/',(req,res) => {res.send("Express-server")});
